@@ -62,7 +62,7 @@ function chatStripe(isAi, value, uniqueId) {
     )
 }
 
-const handleSubmit = async (e) => {
+const handleSubmit = async(e) => {
     e.preventDefault()
 
     const data = new FormData(form)
@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codex-im0y.onrender.com/', {
+    const response = await fetch('https://buzaition.onrender.com/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
