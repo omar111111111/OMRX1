@@ -40,15 +40,7 @@ body {
     color: #ECA115;
     text-shadow: #FFDD0A;
     position: fixed;
-    top: 29vh;
-}
-
-#Ask {
-    text-align: center;
-    color: #ECA115;
-    text-shadow: #FFDD0A;
-    position: fixed;
-    top: 1.5vh;
+    top: 27%;
 }
 
 @keyframes change {
