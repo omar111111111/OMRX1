@@ -35,6 +35,22 @@ body {
     animation: change 6s infinite ease-in-out;
 }
 
+#MyName {
+    text-align: center;
+    color: #ECA115;
+    text-shadow: #FFDD0A;
+    position: fixed;
+    top: 29vh;
+}
+
+#Ask {
+    text-align: center;
+    color: #ECA115;
+    text-shadow: #FFDD0A;
+    position: fixed;
+    top: 1.5vh;
+}
+
 @keyframes change {
     0% {
         background-image: url(Logo1.png);
@@ -71,7 +87,7 @@ body {
 }
 
 .ai {
-    background: #40414F;
+    background: #3B2E20;
 }
 
 .chat {
@@ -133,7 +149,7 @@ form {
     max-width: 1280px;
     margin: 0 auto;
     padding: 10px;
-    background: #40414F;
+    background: #3B2E20;
     display: flex;
     flex-direction: row;
     gap: 10px;
