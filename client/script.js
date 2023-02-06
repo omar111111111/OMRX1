@@ -8,19 +8,18 @@ let loadInterval
 
 function loader(element) {
     element.textContent = ''
-    const LoadName = ["Z", " ", "a", " ", "i", " ", "d", " ", ".", " ", ".", " ", ".", " ", "."];
+     const LoadName = ["O", " ", "M", " ", "R", " ", "X", " ", ".", " ", ".", " ", ".", " ", "."];
     let index = 0;
     loadInterval = setInterval(() => {
         element.textContent += LoadName[index++];
 
 
-        if (element.textContent === 'Z a i d . . . .') {
+        if (element.textContent === 'O M R X . . . .') {
             element.textContent = '';
             index = 0;
         }
     }, 90);
 }
-
 var targetDiv = document.querySelector("#chat_container");
 
 
